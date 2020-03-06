@@ -156,7 +156,7 @@ class cajeroSerializer(serializers.ModelSerializer):
 class especialidadSerializer(serializers.ModelSerializer):
     class Meta:
         model = especialidad
-        fields = ('id', 'especialidadID')
+        fields = ('id', 'nombre')
 
 class gerenteSerializer(serializers.ModelSerializer):
     class Meta:
